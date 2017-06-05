@@ -18,12 +18,12 @@ self.addEventListener("install", function(event) {
            after making HTTP requests for each of them.
         */
         return cache.addAll([
-        '/service-worker-demo/images/julia_1.jpg',
-        '/service-worker-demo/images/julia_2.jpg',
-        '/service-worker-demo/images/julia_3.jpg',
-        '/service-worker-demo/images/julia_4.jpg',
-        '/service-worker-demo/images/julia_5.jpg',
-        '/service-worker-demo/images/julia_6.jpg'
+        // '/service-worker-demo/images/julia_1.jpg',
+        // '/service-worker-demo/images/julia_2.jpg',
+        // '/service-worker-demo/images/julia_3.jpg',
+        // '/service-worker-demo/images/julia_4.jpg',
+        // '/service-worker-demo/images/julia_5.jpg',
+        // '/service-worker-demo/images/julia_6.jpg'
         ]);
       })
       .then(function() {
