@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/moment.js"></script>
+    <script src="js/test_1.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+
+    <div id="content-container" class="container">
+
+        <div class="starter-template">
+            <h1>Bootstrap starter template</h1>
+            <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones
+                HTML document.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="images/julia_1.jpg">
+                        <img src="images/julia_1.jpg" alt="Lights" style="width:100%">
+                        <div class="caption">
+                        <p>Lorem ipsum...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="images/julia_2.jpg">
+                        <img src="images/julia_2.jpg" alt="Nature" style="width:100%">
+                        <div class="caption">
+                        <p>Lorem ipsum...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="images/julia_3.jpg">
+                        <img src="images/julia_3.jpg" alt="Fjords" style="width:100%">
+                        <div class="caption">
+                        <p>Lorem ipsum...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="images/julia_4.jpg">
+                        <img src="images/julia_4.jpg" alt="Lights" style="width:100%">
+                        <div class="caption">
+                        <p>Lorem ipsum...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="images/julia_5.jpg">
+                        <img src="images/julia_5.jpg" alt="Nature" style="width:100%">
+                        <div class="caption">
+                        <p>Lorem ipsum...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="images/julia_6.jpg">
+                        <img src="images/julia_6.jpg" alt="Fjords" style="width:100%">
+                        <div class="caption">
+                        <p>Lorem ipsum...</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('service-worker.js', {scope: '/images/'})
+            .then(function(reg) {
+                // registration worked
+                console.log('Registration succeeded. Scope is ' + reg.scope);
+            }).catch(function(error) {
+                // registration failed
+                console.log('Registration failed with ' + error);
+            });
+        }
+    </script>
+    <script src="js/test_2.js"></script>
+</body>
+
+</html>
