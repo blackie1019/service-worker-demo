@@ -109,7 +109,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('service-worker.js', {scope: '/images/'})
+            navigator.serviceWorker.register('service-worker.js', {scope: '/images/service-worker-demo/'})
             .then(function(reg) {
                 // registration worked
                 console.log('Registration succeeded. Scope is ' + reg.scope);
