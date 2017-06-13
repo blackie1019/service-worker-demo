@@ -14,27 +14,27 @@
     toolbox.router.get('/service-worker-demo/images(.*)', toolbox.fastest, {
         cache: {
             name: 'images',
-            maxEntries: 1000,
-            maxAgeSeconds: 600
+            maxEntries: 100,
+            maxAgeSeconds: 60
         },
         origin: /blackie1019\.github\.io$/
     });
 
-    toolbox.router.get('/service-worker-demo/css(.*)', toolbox.cacheFirst, {
+    toolbox.router.get('/service-worker-demo/css(.*)', toolbox.cacheOnly, {
         cache: {
             name: 'css',
-            maxEntries: 1000,
-            maxAgeSeconds: 600
+            maxEntries: 100,
+            maxAgeSeconds: 300
         },
         origin: /blackie1019\.github\.io$/
     });
 
     
-    toolbox.router.get('/service-worker-demo/js(.*)', toolbox.cacheFirst, {
+    toolbox.router.get('/service-worker-demo/js(.*)', toolbox.cacheOnly, {
         cache: {
             name: 'js',
             maxEntries: 100,
-            maxAgeSeconds: 60
+            maxAgeSeconds: 300
         },
         origin: /blackie1019\.github\.io$/
     });
