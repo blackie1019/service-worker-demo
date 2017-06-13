@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/moment.js"></script>
+    <script src="js/test_1.js"></script>
 </head>
 
 <body>
@@ -104,11 +106,11 @@
         </div>
     </div>
     <!-- /.container -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script>
         if ('serviceWorker' in navigator) {
             //navigator.serviceWorker.register('/service-worker-demo/service-worker_01.js', {scope: '/service-worker-demo/image/'})
-            navigator.serviceWorker.register('/service-worker-demo/service-worker_sbk.js').then(function(reg) {
+            navigator.serviceWorker.register('/service-worker-demo/service-worker_01.js').then(function(reg) {
                 // registration worked
                 console.log('Service worker registration complete.');
                 //console.log('Registration succeeded. Scope is ' + reg.scope);

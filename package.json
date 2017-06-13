@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "moment": "^2.18.1",
-    "node-static": "^0.7.9"
+    "node-static": "^0.7.9",
+    "sw-toolbox": "^3.6.0"
   },
   "devDependencies": {},
   "scripts": {
