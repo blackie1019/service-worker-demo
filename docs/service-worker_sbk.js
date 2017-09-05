@@ -17,7 +17,7 @@
             maxEntries: 100,
             maxAgeSeconds: 300
         },
-        origin: /blackie1019\.github\.io$/
+        origin: /(test123|blackie1019|123)\.github\.io$/
     });
 
     toolbox.router.get('/service-worker-demo/css(.*)', toolbox.cacheFirst, {
